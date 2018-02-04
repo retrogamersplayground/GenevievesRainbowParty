@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	font-family: 'Butterfly Kids', cursive;
+	
 }
 ol, ul {
 	list-style: none;
@@ -68,16 +69,8 @@ img {
 	width: 100%;
 }
 	
-	
 header {
-	margin: 0px;
-	padding: 0px;
-	background-image: url('https://s5.postimg.org/lsbbcz593/IMG_1868.jpg');
-	
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-size: cover;
+	background-image: url('https://i.ytimg.com/vi/YL9p4yNt1P8/maxresdefault.jpg');
 }
 
 h1 { 
@@ -95,7 +88,7 @@ h3 {
 	padding-top: 50px;
 	padding-bottom: 20px;
 	text-align: center;
-	font-size: 3rem;
+	font-size: 6rem;
 	text-shadow: 2px 2px blue, 4px 4px green, 6px 6px yellow, 8px 8px orange, 10px 10px red;
 }
 
@@ -105,17 +98,57 @@ article {
 
 
 
-footer {
-	margin: 0px;
-	padding: 0px;
-	background-image: url('https://s5.postimg.org/lsbbcz593/IMG_1868.jpg');
-    background-position: center;
-    background-size: cover;
+
+
+
+/*responsive layout*/
+
+@media (max-width: 600px) {
+
+	h1 {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		font-size: 5rem;
+		text-shadow: 2px 2px blue, 4px 4px green, 6px 6px yellow, 8px 8px orange, 10px 10px red;
+	}
+	
+	ul {
+	list-style: none;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	}
+
+	li { 
+		width: 100%;
+		display: inline-block;
+		padding: 0px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		position: relative;
+	}	
+	
+	article {
+		margin-top: 10px;
+	}
+	
 }
 
-
-
-
-
-
-
+@media (max-width: 400px) {
+	
+	h1 {
+		padding-top: 75px;
+		padding-bottom: 75px;
+		font-size: 5rem;
+		text-shadow: 2px 2px blue, 4px 4px green, 6px 6px yellow, 8px 8px orange, 10px 10px red;
+	}
+	
+	h3 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 1.5rem;
+	text-shadow: 1px 1px blue, 2px 2px green, 3px 3px yellow, 4px 4px orange, 5px 5px red;
+	}
+}
+	
