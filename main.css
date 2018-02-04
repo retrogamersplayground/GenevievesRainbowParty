@@ -108,7 +108,7 @@ article {
 
 /*tablet layout*/
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
 	h1 {
 		padding-top: 30px;
@@ -141,7 +141,7 @@ article {
 
 /*phone layout*/
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
 	
 	h1 {
 		padding-top: 75px;
