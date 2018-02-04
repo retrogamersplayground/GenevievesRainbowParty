@@ -54,14 +54,15 @@ ul {
 	list-style: none;
 	width: 80%;
 	margin: auto;
+	text-align: center;
 }
 
 li { 
 	width: 40%;
 	display: inline-block;
-	position: relative;
 	padding: 20px;
-}
+	position: relative;
+}	
 
 img {
 	width: 100%;
