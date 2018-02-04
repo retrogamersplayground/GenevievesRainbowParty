@@ -101,7 +101,7 @@ article {
 
 
 
-/*responsive layout*/
+/*tablet layout*/
 
 @media (max-width: 600px) {
 
@@ -133,6 +133,8 @@ article {
 	}
 	
 }
+
+/*phone layout*/
 
 @media (max-width: 400px) {
 	
